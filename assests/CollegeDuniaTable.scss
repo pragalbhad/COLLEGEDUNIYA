@@ -1,0 +1,174 @@
+$green-color: rgb(62, 174, 141);
+$white-color: #fff;
+$orange-color: rgb(255, 121, 0);
+$blue-color: rgb(79, 184, 221);
+
+.college-dunia-container {
+  padding: 4rem;
+}
+.main-table {
+  thead {
+    tr {
+      background-color: rgb(136, 189, 196);
+    }
+  }
+
+  th {
+    padding: 1rem;
+    color: $white-color;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #e9e9e9;
+  }
+
+  td {
+    border: 1px solid #e9e9e9;
+    padding: 1rem;
+  }
+
+  tbody {
+    tr {
+      vertical-align: top;
+      border: 1px solid #e9e9e9;
+      .college-name {
+        color: $blue-color;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .college-detail-btn-wrapper {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: space-between;
+
+        .download-btn {
+          color: rgb(62, 174, 141);
+          &:hover {
+            border: 1px solid rgb(62, 174, 141);
+          }
+        }
+      }
+
+      .fee-value {
+        color: $green-color;
+        font-weight: 700;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .fee-college-name {
+        font-size: 0.6875rem;
+        color: rgb(102, 102, 102);
+      }
+    }
+
+    .apply-now-btn {
+      color: $orange-color;
+      width: auto;
+    }
+  }
+}
+
+.common-btn {
+  font-size: 12px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+
+  svg {
+    margin-right: 5px;
+  }
+}
+
+.modal {
+  .modle-title {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.8px;
+    margin-right: 25px;
+  }
+
+  table {
+    thead {
+      tr {
+        background-color: rgb(255, 241, 228);
+        th {
+          border: 1px solid #dedede;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          border: 1px solid #dedede;
+          color: #333;
+          padding: 0.5rem;
+          font-size: 12px;
+          line-height: 16.8px;
+        }
+      }
+    }
+  }
+}
+
+.search-field {
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px solid $blue-color;
+  border-radius: 20px;
+}
+
+.sort-dropdown {
+  select {
+    border-radius: 20px;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    margin: 0rem 0rem 1rem 1rem;
+  }
+}
+
+.best-social-left {
+  width: 70%;
+  font-size: 11px;
+  line-height: 15px;
+  background: rgb(255, 249, 228);
+  padding: 2px 6px;
+  color: rgb(200, 108, 128);
+  border-radius: 20px;
+
+  .check-icon{
+    margin-right: 10px;
+  }
+}
+
+
+.feature-tag{
+
+    z-index: 999;
+    padding: 0.5rem 2rem;
+    background-image: url(https://image-static.collegedunia.com/public/asset/img/featured-flag.svg);
+    background-size: cover;
+    font-size: 18px;
+    width: 252px;
+    height: 41px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    zoom: 0.5;
+    top: -0.8rem;
+}
+
+.circle-svg{
+  svg{
+    width: 12px;
+    height: 13px;
+    margin-right: 0.2rem;
+    path{
+      color: #e0a210
+    }
+  }
+}
