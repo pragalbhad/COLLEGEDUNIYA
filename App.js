@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <CollegeDuniaTable />
+      <h1>Hello, World!</h1>
     </div>
   );
 }
